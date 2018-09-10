@@ -1,6 +1,8 @@
 # gem_projectM
 Milkdrop compatible music visualizer for Pure Data
 
+![Screenshot](https://github.com/damian-c/gem_projectM/raw/master/web/screenshot-2018-09-10.png)
+
 ## Requirements
 * [Pure Data](https://puredata.info) - visual patch-based programming language
 * [GEM](https://gem.iem.at) - Graphics Environment for Multimedia
@@ -15,9 +17,9 @@ Milkdrop compatible music visualizer for Pure Data
 ## Usage
 * Run pd from the working directory containing the config.inp file
 * Add a gem_projectM object
-* Connect a gem head to the inlet
-* Connect the outlet to the second input of a texture
-* Connect that texture to a rectangle
+* Connect a gemhead to the inlet
+* Connect the outlet to the second inlet of a pix_texture
+* Connect that pix_texture to a rectangle
 
 ## TODO:
 * use an actual build system
