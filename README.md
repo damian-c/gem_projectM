@@ -17,7 +17,8 @@ Milkdrop compatible music visualizer for Pure Data
 ## Usage
 * Run pd from the working directory containing the config.inp file
 * Add a gem_projectM object
-* Connect a gemhead to the inlet
+* Connect a gemhead to the first inlet
+* Connect an adc~ object to the second inlet
 * Connect the outlet to the second inlet of a pix_texture
 * Connect that pix_texture to a rectangle
 
